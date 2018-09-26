@@ -1,7 +1,7 @@
 # Site Settings
 title: Geekit | Uncle Bob
-email: youremail@xyz.com
-description: Some text about your blog.
+email: peter2008.ok@163.com
+description: We are all in the gutter , but some of us are looking at the stars.
 baseurl: "/jekflix-template" # the subpath of your site, e.g. /blog
 url: "https://www.rossener.com" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
