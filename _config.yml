@@ -1,5 +1,5 @@
 # Site Settings
-title: Geekit | Uncle Bob's backyard
+title: Geekit | Uncle Bob_backyard
 email: youremail@xyz.com
 description: Some text about your blog.
 baseurl: "/jekflix-template" # the subpath of your site, e.g. /blog
@@ -7,8 +7,8 @@ url: "https://www.rossener.com" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: Geekit|Uncle Bob
-user_description: Some text about you.
+username: Geekit
+user_description: Uncle Bob_backyard
 disqus_username: disqus_username
 
 # Social Media
