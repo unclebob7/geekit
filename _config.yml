@@ -3,7 +3,7 @@ title: Geekit | Uncle Bob
 email: peter2008.ok@163.com
 description: We are all in the gutter , but some of us are looking at the stars.
 baseurl: /geekit # the subpath of your site, e.g. /blog
-url: "https://www.rossener.com" # the base hostname & protocol for your site
+url: "https://github.com/unclebob7" # https://www.rossener.com
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
