@@ -1,5 +1,11 @@
 ---
-title: Who is Uncle Bob ?
+layout: post
+title: 'Who is Uncle Bob ?'
+image: '/geekit/img/me.jpg "Uncle Bob"'
+description: Know more about the host
+category: 'me'
+tags:
+- me
 published: true
 ---
 ![Test](/geekit/img/me.jpg "Uncle Bob")
