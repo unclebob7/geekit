@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Who is Uncle Bob ?'
-image: '/geekit/img/me.jpg "Uncle Bob"'
+image: '/geekit/img/me.jpg'
 description: Know more about the host
 category: 'me'
 tags:
