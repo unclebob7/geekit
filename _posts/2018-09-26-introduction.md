@@ -6,9 +6,8 @@ description: Know more about the host
 category: 'me'
 tags:
 - me
-published: true
 ---
-![Test](/geekit/img/me.jpg "Uncle Bob")
+
 > _**When time was young , getting asked with the "what's your dream ?" question , I got laughed at answering with "Change The World" , which I seriously mean it.**_
 
 
