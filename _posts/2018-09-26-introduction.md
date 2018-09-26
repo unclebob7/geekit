@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Who is Uncle Bob ?'
-image: 'https://res.cloudinary.com/dn18ydekv/image/upload/c_fill,h_399,w_760/v1537929313/me.jpg'
+image: 'https://res.cloudinary.com/dn18ydekv/image/upload/c_lfill,h_399,w_760/v1537929313/me.jpg'
 description: Know more about the host
 category: 'me'
 tags:
