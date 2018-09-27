@@ -2,7 +2,7 @@
 title: Geekit | Uncle Bob
 email: peter2008.ok@163.com
 description: We are all in the gutter , but some of us are looking at the stars.
-baseurl: /geekit # the subpath of your site, e.g. /blog
+baseurl: /geekit/ # the subpath of your site, e.g. /blog
 url: "https://github.com/unclebob7" # https://www.rossener.com
 google_analytics: "UA-XXXXXXXX-X"
 
@@ -31,9 +31,9 @@ links:
   - title: Home
     url: /home/
   - title: About
-    url: /about/
+    url: "https://github.com/unclebob7/geekit/about/"
   - title: Contact
-    url: /contact/
+    url: "https://github.com/unclebob7/geekit/about/"
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
