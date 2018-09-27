@@ -1,26 +1,23 @@
 ---
 layout: post
-title: "box-shadow ou filter: drop-shadow?"
-date: 2017-08-14 22:55:45
+title: "juint test vs python unittest"
+date: 2018-09-28 19:21:00
 image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1502757949/o-sombra_xyw4wq.jpg'
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-category: 'css'
+description: concise tutorial on junit test for android versus python unittest
+category: 'language'
 tags:
-- css
-- frontend
-twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- java
+- python
+introduction: concise tutorial on junit test for android versus python unittest
 ---
+In computer programming, <a href="https://en.wikipedia.org/wiki/Unit_testing">unit testing</a> is a software testing method by which individual units of source code, sets of one or more computer program modules together with associated control data, usage procedures, and operating procedures, are tested to determine whether they are fit for use.
 
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+> This tutorial offers you some basic concepts on junit5--java along with python unittest with respective IDE on **Android Studio** and **Pycharm**. 
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
-
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-
-## Inline HTML elements
-
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+## category of software testing
+- **state testing** : validates if that code results in expecetd state
+- **behavior testing** : validates if it executes the expected sequence of events
+[Wiki definition](https://en.wikipedia.org/wiki/Category:Software_testing).
 
 - **To bold text**, use `<strong>`.
 - *To italicize text*, use `<em>`.
@@ -31,36 +28,48 @@ HTML defines a long list of available inline tags, a complete list of which can 
 
 Most of these elements are styled by browsers with few modifications on our part.
 
-# Heading 1
+## testing terminology
+- **code/application under test** : explicit as it is , the sequence(code section) you settle under a test
+- **test fixture** : specified statement you made with specific arguments(parameter) for outcome , a fixed state in code which is tested used as input for a test. 
+*Another way to describe this is a test precondition.*
 
-## Heading 2
+## Testing with JUnit4
+### notation
+- `@Test` notation indicates the section(function) serves testing function
+- `public void function_name()` is an automatically generated function sharing same name for your **code under test** 
 
-### Heading 3
-
-#### Heading 4
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-## Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
+Here Bob offers a visibly easy `MyClass` with 2 functions `multiply(int x , int y)` and `add(int x , int y)`
 ```js
-// Example can be run directly in your JavaScript console
+public class MyClass {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int a=0;
+        int b=0;
+        int result = 0;
 
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
+        System.out.println("enter figure for multiple sequence:");
+        a = input.nextInt();
+        b = input.nextInt();
+        result = multiply(a,b);
 
-// Call the function
-adder(2, 6);
-// > 8
+        System.out.println(result);
+    }
+
+    //in use
+    public static int multiply(int x , int y) {
+        return x*y;
+    }
+    //not in use
+    public static int add(int x , int y) {
+        return x+y;
+    }
+}
 ```
+**BTW** always remember to settle your function static for your main-function entrance to avoid memory leak.
 
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+### Instantialize a test_class
 
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+![library_to_choose](https://res.cloudinary.com/dn18ydekv/image/upload/v1538049787/choose_library.png)
 
 * Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 * Donec id elit non mi porta gravida at eget metus.
