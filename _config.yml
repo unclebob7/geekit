@@ -29,7 +29,7 @@ gems:
 # For external links add external: true
 links:
   - title: Home
-    url: /home/
+    url: /
   - title: About
     url: /about/
   - title: Contact
