@@ -7,18 +7,14 @@ url: "https://github.com/unclebob7" # https://www.rossener.com
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: Uncle Bob
-user_description: default host
-disqus_username: disqus_username
+username: Geekit
+user_description: Uncle Bob
+
 
 # Social Media
 # Remove the item if you don't need it
-github_username: github_username
+github_username: unclebob7
 facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
 
 # Build settings
 markdown: kramdown
@@ -33,7 +29,7 @@ gems:
 # For external links add external: true
 links:
   - title: Home
-    url: /
+    url: "https://unclebob7.github.io/geekit/"
   - title: About
     url: /about/
   - title: Contact
