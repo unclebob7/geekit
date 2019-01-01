@@ -17,7 +17,7 @@ Dated back to the long gone 2018, there has been a Gordian knot keeping baffling
 > **So the question is as follows:**
 Before we apply **eigen-decomposition** to the covariance matrix in **PCA**, we perform **mean-normalization** to the dataset, which I previously deem it a sterotypical step taken for data-processing to avoid over-fitting.However, things are not that easy.
 
-Before we move onward, I'd like to briefly summarize eigen-decomposition which I previously used and a more commonly used **factorization** method, the SVD(singular value decomposition).
+Before we move onward, I'd like to briefly Sigmamarize eigen-decomposition which I previously used and a more commonly used **factorization** method, the SVD(singular value decomposition).
 
 ## eigen-decompositon vs. SVD
 > eigen-decomposition : `A = P*D*P^-1`
@@ -27,7 +27,7 @@ Before we move onward, I'd like to briefly summarize eigen-decomposition which I
 
 * In the SVD, the **nondiagonal** matrices `U` and `V` are not necessarily the inverse of one another.They are usually not related to each other at all. While in eigen-decomposition, the **nondiagonal** matrices `P`and `P` are inverses of each other.
 
-* In the SVD, the entries in the **diagonal** matrix `\sum` are all real and non-negative. In the eigen-decomposition,the entries of `D` can be any complex number - negative, positive, imaginary, whatever.
+* In the SVD, the entries in the **diagonal** matrix `\Sigma` are all real and non-negative. In the eigen-decomposition,the entries of `D` can be any complex number - negative, positive, imaginary, whatever.
 
 * The SVD always exists for any sort of **rectangular** or **square** matrix, whereas the eigen-decomposition can only exists for square matrices, and even for square matrices sometimes it doesn't exist.
 
