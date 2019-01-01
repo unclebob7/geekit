@@ -20,8 +20,10 @@ Before we apply **eigen-decomposition** to the covariance matrix in **PCA**, we 
 Before we move onward, I'd like to briefly Sigmamarize eigen-decomposition which I previously used and a more commonly used **factorization** method, the SVD(singular value decomposition).
 
 ## eigen-decompositon vs. SVD
-> eigen-decomposition : `A = P*D*P^-1`
-> SVD : `A = U * $\Sigma$ * P^T`
+
+> eigen-decomposition : `A = P * D * P^-1`
+
+> SVD : `A = U * Sigma * V^T`
 
 * The vectors in the eigen-decomposition is matrix `P` are not necessarily orthogonalif the original dataset, which refers to matrix `D` isn't **positive semi-definite**.So the change of basis isn't a simple rotation. On the other hand, the vectors in matrices `U` and `V`in the **SVD** are genuinely **orthonormal**, so they do represent rotations(and possibly flips).
 
