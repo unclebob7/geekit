@@ -12,8 +12,7 @@ introduction: tutorial on Dimensionality Reduction
 > This tutorial focus on the implementation of Dimensionality Reduction. 
 
 ## Context
-Dated back to the long gone 2018, there has been a Gordian knot keeping baffling and following me into 2019:satisfied::satisfied::satisfied:
-So this reasonably becomes the very first mission to accomplish(clean up) in my 2019. 
+Dated back to the long gone 2018, there has been a Gordian knot keeping baffling and following me into 2019:satisfied::satisfied::satisfied:So this reasonably becomes the very first mission to accomplish(clean up) in my 2019. 
 
 > **So the question is as follows:**
 Before we apply **eigen-decomposition to the covariance matrix in **PCA**, we perform **mean-normalization** to the dataset, which I previously deem it a sterotypical step taken for data-processing to avoid over-fitting.However, things are not that easy.
@@ -21,23 +20,16 @@ Before we apply **eigen-decomposition to the covariance matrix in **PCA**, we pe
 Before we move onward, I'd like to briefly summarize eigen-decomposition which I previously used and a more commonly used **factorization** method, the SVD(singular value decomposition).
 
 ## eigen-decompositon vs. SVD
-> eigen-decomposition : A = $\mathbf{P}$ $\mathbf{D}$$\mathbf{P}^-1$
-> SVD : A = $\mathbf{U}$ $\mathbf{\sum}$$\mathbf{P}^T$
+> eigen-decomposition : `A = P*D*P^-1`
+> SVD : `A = U * \sum * P^T`
 
-* The vectors in the eigen-decomposition is matrix $\mathbf{P}$ are not necessarily orthogonal
-if the original dataset, which refers to matrix $\mathbf{D}$ isn't **positive semi-definite**.
-So the change of basis isn't a simple rotation. On the other hand, the vectors in matrices $\mathbf{U}$ and $\mathbf{V}$
-in the **SVD** are genuinely **orthonormal**, so they do represent rotations(and possibly flips).
+* The vectors in the eigen-decomposition is matrix `P` are not necessarily orthogonalif the original dataset, which refers to matrix `D` isn't **positive semi-definite**.So the change of basis isn't a simple rotation. On the other hand, the vectors in matrices `U` and `V`in the **SVD** are genuinely **orthonormal**, so they do represent rotations(and possibly flips).
 
-* In the SVD, the **nondiagonal** matrices $\mathbf{U}$ and $\mathbf{V}$ are not necessarily the inverse of one another.
-They are usually not related to each other at all. While in eigen-decomposition, the **nondiagonal** matrices $\mathbf{P}$
-and $\mathbf{P}^-1$ are inverses of each other.
+* In the SVD, the **nondiagonal** matrices `U` and `V` are not necessarily the inverse of one another.They are usually not related to each other at all. While in eigen-decomposition, the **nondiagonal** matrices `P`and `P` are inverses of each other.
 
-* In the SVD, the entries in the **diagonal** matrix $\mathbf{\sum}$ are all real and non-negative. In the eigen-decomposition,
-the entries of $\mathbf{D}$ can be any complex number - negative, positive, imaginary, whatever.
+* In the SVD, the entries in the **diagonal** matrix `\sum` are all real and non-negative. In the eigen-decomposition,the entries of `D` can be any complex number - negative, positive, imaginary, whatever.
 
-* The SVD always exists for any sort of **rectangular** or **square** matrix, whereas the eigen-decomposition can only exists for square matrices, 
-and even for square matrices sometimes it doesn't exist.
+* The SVD always exists for any sort of **rectangular** or **square** matrix, whereas the eigen-decomposition can only exists for square matrices, and even for square matrices sometimes it doesn't exist.
 
 ## initialize dataset
 ```python
@@ -48,7 +40,7 @@ w1, w2 = 0.1, 0.3
 noise = 0.1
 
 # Create an array of the given shape 
-# and populate it with random samples from a uniform distribution over [0, 1).
+# and populate it with random samples from a uniform distribution over [0, 1)
 angles = np.random.rand(m) * 3 * np.pi / 2 - 0.5
 # print('angles: {}\nsize of dataset: {}'.format(angles, angles.shape))
 
@@ -65,11 +57,10 @@ by using
 ```python
 pca = PCA(n_components = 0.99)
 ```
-when given `x` value ranges (0,1), we are indicating **x%** of the variance would be preserved, while if we pass in variable of 
-integer larger than or equals to 1, we specifies the number of principal components to use.
+when given `x` value ranges (0,1), we are indicating **x%** of the variance would be preserved, while if we pass in variable of integer larger than or equals to 1, we specifies the number of principal components to use.
 E.g. *preserving 99.9% variance*
 
-```
+```python
 # 2-D
 X_decorrelated_DR = pca.fit_transform(X)
 X_decorrelated_DR[:] = X_decorrelated_DR[:]*(-1) 
@@ -93,13 +84,11 @@ With the retrival of a little bit **Analytic Geometry** , we can do this very fl
 
 * calculate the `normal vertor` which is the `cross product` of the 2 `principal components`  **step 1**
 * use meshgrid to construct a plane  **step 2**
-* use $\mathbf{A}$(x-x0) + $\mathbf{B}$(y-y0) + $\mathbf{C}$(z-z0) + $\mathbf{D}$ equation to get $\mathbf{Z}$ of the preceding plane  **step 3**
+* use `A`(x-x0) + `B`(y-y0) + `C`(z-z0) + `D` equation to get `Z` of the preceding plane  **step 3**
 
 ![meshgrid](https://raw.githubusercontent.com/unclebob7/dimensionality-reduction/master/meshgrid.png)
-![analytic geometry](https://github.com/unclebob7/dimensionality-reduction/blob/master/analytic_geometry.PNG)
-> Now we can very explicitly why we have to implement *mean-normalization* to the raw dataset, 
-since we have to pinpoint the *original point* as the start of the 2 **PC-vector**.
-Moreover , x0, y0, z0 were automatically set to 0 since we stipulate the `normal vector` goes through the *original point*.
+![analytic geometry](https://raw.githubusercontent.com/unclebob7/dimensionality-reduction/master/analytic_geometry.PNG)
+> Now we can very explicitly why we have to implement *mean-normalization* to the raw dataset, since we have to pinpoint the *original point* as the start of the 2 **PC-vector**.Moreover , x0, y0, z0 were automatically set to 0 since we stipulate the `normal vector` goes through the *original point*.
 
 **step 1**
 
