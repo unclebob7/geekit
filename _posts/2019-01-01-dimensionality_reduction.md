@@ -2,7 +2,7 @@
 layout: post
 title: 'Dimensionality Reduction'
 image: 'https://raw.githubusercontent.com/unclebob7/dimensionality-reduction/master/Karl_Pearson%2C_1912.jpg'
-description: the complete explication and practition of the idea of 'DImensionality Reduction' with Python3
+description: the complete explication and practition of the idea of 'Dimensionality Reduction' with Python3
 category: 'machine learning'
 tags:
 - machine learning
