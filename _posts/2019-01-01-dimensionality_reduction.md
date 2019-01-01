@@ -15,13 +15,13 @@ introduction: tutorial on Dimensionality Reduction
 Dated back to the long gone 2018, there has been a Gordian knot keeping baffling and following me into 2019:satisfied::satisfied::satisfied:So this reasonably becomes the very first mission to accomplish(clean up) in my 2019. 
 
 > **So the question is as follows:**
-Before we apply **eigen-decomposition to the covariance matrix in **PCA**, we perform **mean-normalization** to the dataset, which I previously deem it a sterotypical step taken for data-processing to avoid over-fitting.However, things are not that easy.
+Before we apply **eigen-decomposition** to the covariance matrix in **PCA**, we perform **mean-normalization** to the dataset, which I previously deem it a sterotypical step taken for data-processing to avoid over-fitting.However, things are not that easy.
 
 Before we move onward, I'd like to briefly summarize eigen-decomposition which I previously used and a more commonly used **factorization** method, the SVD(singular value decomposition).
 
 ## eigen-decompositon vs. SVD
 > eigen-decomposition : `A = P*D*P^-1`
-> SVD : `A = U * \sum * P^T`
+> SVD : `A = U * $\Sigma$ * P^T`
 
 * The vectors in the eigen-decomposition is matrix `P` are not necessarily orthogonalif the original dataset, which refers to matrix `D` isn't **positive semi-definite**.So the change of basis isn't a simple rotation. On the other hand, the vectors in matrices `U` and `V`in the **SVD** are genuinely **orthonormal**, so they do represent rotations(and possibly flips).
 
