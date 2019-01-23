@@ -21,15 +21,15 @@ Before we move onward, I'd like to briefly Sigmamarize eigen-decomposition which
 
 ## eigen-decompositon vs. SVD
 
-> eigen-decomposition : `A = P * D * P^-1`
+> eigen-decomposition : $A$ = $P$ $D$ $P^n$ (n = -1)
 
-> SVD : `A = U * Sigma * V^T`
+> SVD : $A$ = $U$ $\Sigma$ $V^T$
 
 * The vectors in the eigen-decomposition is matrix `P` are not necessarily orthogonalif the original dataset, which refers to matrix `D` isn't **positive semi-definite**.So the change of basis isn't a simple rotation. On the other hand, the vectors in matrices `U` and `V`in the **SVD** are genuinely **orthonormal**, so they do represent rotations(and possibly flips).
 
 * In the SVD, the **nondiagonal** matrices `U` and `V` are not necessarily the inverse of one another.They are usually not related to each other at all. While in eigen-decomposition, the **nondiagonal** matrices `P`and `P` are inverses of each other.
 
-* In the SVD, the entries in the **diagonal** matrix `\Sigma` are all real and non-negative. In the eigen-decomposition,the entries of `D` can be any complex number - negative, positive, imaginary, whatever.
+* In the SVD, the entries in the **diagonal** matrix $\Sigma$ are all real and non-negative. In the eigen-decomposition,the entries of `D` can be any complex number - negative, positive, imaginary, whatever.
 
 * The SVD always exists for any sort of **rectangular** or **square** matrix, whereas the eigen-decomposition can only exists for square matrices, and even for square matrices sometimes it doesn't exist.
 
@@ -69,17 +69,6 @@ X_decorrelated_DR[:] = X_decorrelated_DR[:]*(-1)
 ```
 
 ![fit_transform](https://raw.githubusercontent.com/unclebob7/dimensionality-reduction/master/999_variance.PNG)
-
-*preserving 99.9% variance*
-
-```python
-# preserving 99.9% of the variance
-pca = PCA(n_components = 0.999)
-# 3-D
-X_decorrelated = pca.fit_transform(X)
-```
-
-![fit_transform](https://raw.githubusercontent.com/unclebob7/dimensionality-reduction/master/9999variance.PNG)
 
 ## constructe hyperplane
 With the retrival of a little bit **Analytic Geometry** , we can do this very fluently.
