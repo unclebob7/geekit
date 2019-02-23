@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Who is Uncle Bob ?'
-image: 'https://res.cloudinary.com/dn18ydekv/image/upload/c_limit,h_399,w_760/v1537929313/me.jpg'
+image: 'https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/bob.gif'
 description: Know more about me
 category: 'me'
 tags:
@@ -9,7 +9,6 @@ tags:
 introduction: Know more about me.
 ---
 
-![bob](https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/bob.gif)
 I am presently a Junior student pursing my B.Eng in the faculty of telecommunication at CUG. My ex[pertises of interest are Android development, Machine learning, especially NLP.
 
 > _**When time was young , getting asked with the "what's your dream ?" question , I got laughed at answering with "Change The World" , which I seriously mean it.**_
