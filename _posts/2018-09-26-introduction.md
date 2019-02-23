@@ -2,11 +2,11 @@
 layout: post
 title: 'Who is Uncle Bob ?'
 image: 'https://res.cloudinary.com/dn18ydekv/image/upload/c_limit,h_399,w_760/v1537929313/me.jpg'
-description: Know more about the host
+description: Know more about me
 category: 'me'
 tags:
 - me
-introduction: Know more about the host.
+introduction: Know more about me.
 ---
 
 I am presently a Junior student pursing my B.Eng in the faculty of telecommunication at CUG. My ex[pertises of interest are Android development, Machine learning, especially NLP.
@@ -24,7 +24,7 @@ I am presently a Junior student pursing my B.Eng in the faculty of telecommunica
 ### Rationality Genorosity Visionary
 > _**I have no speical talents. I am only passionately curious.**_
 > 
->                            ---Albert Einstein
+> _**---Albert Einstein**_
 
 
 ## expertises of interest
