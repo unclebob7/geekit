@@ -9,7 +9,7 @@ tags:
 introduction: Know more about me.
 ---
 
-I am presently a Junior student pursing my B.Eng in the faculty of telecommunication at CUG. My ex[pertises of interest are Android development, Machine learning, especially NLP.
+I am presently a Junior student pursing my B.Eng in the faculty of telecommunication at CUG. My expertises of interest are Android development, Machine learning, especially NLP.
 
 > _**When time was young , getting asked with the "what's your dream ?" question , I got laughed at answering with "Change The World" , which I seriously mean it.**_
 
