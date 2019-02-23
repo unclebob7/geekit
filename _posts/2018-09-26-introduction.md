@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Who is Uncle Bob ?'
-image: 'https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/bob.gif'
+image: 'https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/bob.jpg'
 description: Know more about me
 category: 'me'
 tags:
