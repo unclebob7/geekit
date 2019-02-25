@@ -68,7 +68,7 @@ Just to exemplify, Framework like TensorFlow offers us ultimately friendly and e
 
 However, does it really mean our "old-school" calculus were out-moded and should be cast aside simply becuse Google or Facebook take care of everything for us?
 
-<font color=#B22222 size=72>not necessarily...</font>
+> not necessarily...
 
 Start from very fundamental Linear Regression:
 
@@ -81,7 +81,7 @@ Higher dimensions come with more principles to specify :
 - formulation
 - type of numerator & denominator
 
-<font size=30> *Let's roll...* </font>
+> *Let's roll...* 
 
 ## formulation
 
@@ -98,4 +98,46 @@ details are as follows([wiki](https://en.wikipedia.org/wiki/Matrix_calculus)):
 
 ![matdiff table](https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/matdiff_table.png)
 
-## 
+## type of numerator & denominator
+
+Since we were "forcibly" embraced by our `world of matrix`(*vector filed*), we now have 4 possible combinations out of box.
+
+- scalar w.r.t scalar
+- scalar w.r.t vector
+- vector w.r.t scalar
+- vector w.r.t vector 
+
+We go directly into the toughest... (vector w.r.t vector)
+
+details are as follows : 
+![matdiff](https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/matdiff.jpg)
+
+## Verification
+
+```python
+Y_predict = tf.matmul(X, W, name="prediction")
+error = Y_predict - Y
+loss = tf.losses.mean_squared_error(Y, Y_predict)
+gradients = 2/m*tf.matmul(tf.transpose(X), error)
+ 
+# cannot directly apply "W = W - learning_rate*gradients" since costant and Variable are "source ops" that take no input
+# W = W - learning_rate*gradients
+training_op = tf.assign(W, W - learning_rate*gradients)   
+
+init = tf.global_variables_initializer()
+
+with tf.Session() as sess:
+    sess.run(init)
+    WWW = sess.run(www)
+    for epoch in range(n_epochs):
+        if epoch % 100 == 0:
+            print("#Epoch", epoch, ": ", "MSE =", loss.eval())
+        sess.run(training_op)
+        
+    best_W = W.eval()
+    print("optimal internal model parameters:", best_W)
+```
+
+All above snippets output the same **MSE** : 
+
+
