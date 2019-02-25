@@ -14,6 +14,8 @@ introduction: tutorial on matrix differentiation
 >
 > Quantum physics
 
+## How matrix calculus comes into sight ?
+
 Almost 50 years has passed since **backpropagation**[(Paul Werbos 1974)](https://en.wikipedia.org/wiki/Paul_Werbos) was introduced into DNN. As successors of this gloroious legacy from our old men, We have developed countless high-level frameworks like :
 
 |Library|API|Started by|Year|
@@ -64,4 +66,36 @@ with tf.Session() as sess:
 
 Just to exemplify, Framework like TensorFlow offers us ultimately friendly and enclosed entries like : [autodiff](https://www.tensorflow.org/api_docs/python/tf/gradients),  [optimizer](https://www.tensorflow.org/api_docs/python/tf/train#classes) to perform optimizations.
 
-However, does it really mean our old-school calcus were out-moded and should be cast aside simply becuse Google or Facebook take care of everything for us?
+However, does it really mean our "old-school" calculus were out-moded and should be cast aside simply becuse Google or Facebook take care of everything for us?
+
+<font color=#B22222 size=72>not necessarily...</font>
+
+Start from very fundamental Linear Regression:
+
+![linear regression](https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/Screenshot%20from%202019-02-25%2019-03-44.png)
+
+Ultimately easy in `scalar field`, but how about in `vector field` ?
+
+Higher dimensions come with more principles to specify :
+
+- formulation
+- type of numerator & denominator
+
+<font size=30> *Let's roll...* </font>
+
+## formulation
+
+Since `derivative` consists of `numerator` w.r.t `denominator`, there are two possible layouts(formulation) that we could specify in for our output(**gradient**)
+
+- numerator layout (*Jacobian formulation*)
+- denominator layout (*Hessian formulation*)
+
+Basically, It's simply whether the lay out according to `numerator` or `denominator`
+
+And I personally prefer `denominator layout`, consider how it got its name... :grin: :grin: :grin:
+
+details are as follows([wiki](https://en.wikipedia.org/wiki/Matrix_calculus)):
+
+![matdiff table](https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/matdiff_table.png)
+
+## 
