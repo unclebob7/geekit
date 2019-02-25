@@ -11,10 +11,10 @@ introduction: tutorial on matrix differentiation
 ---
 
 > *Reality dosen't exist until we measure it.*
->                          
->  Quantum physics
+>
+> Quantum physics
 
-Almost 50 years has passed since **backpropagation**[(Paul Werbos 1974)](https://en.wikipedia.org/wiki/Paul_Werbos) was introduced into DNN. As successors of this gloroious legacy from our old men, We have developed countless multiple high-level framework like :
+Almost 50 years has passed since **backpropagation**[(Paul Werbos 1974)](https://en.wikipedia.org/wiki/Paul_Werbos) was introduced into DNN. As successors of this gloroious legacy from our old men, We have developed countless high-level frameworks like :
 
 |Library|API|Started by|Year|
 |-------|---|----------|----|
