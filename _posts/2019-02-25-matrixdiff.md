@@ -44,7 +44,7 @@ with tf.Session() as sess:
     print("optimal internal model parameters:", best_W)
 ```
 
-or even more abstract and intuitive like this :
+or even be more abstract and intuitive like this :
 
 ```python
 optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)
