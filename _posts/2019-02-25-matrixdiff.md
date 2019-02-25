@@ -22,10 +22,6 @@ Almost 50 years has passed since **backpropagation**[(Paul Werbos 1974)](https:/
 |Caffe|Python, C++, Matlab|UC Berkley|2013|
 |TensorFlow|Python, JavaScript, C++, Java, etc.|Google|2015|
 
-> Torch (2002)
-> Caffe (2013)
-> TensorFlow (2015)
-
 We have seen tons of TF operations like :
 
 ```python
