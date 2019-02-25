@@ -63,3 +63,7 @@ with tf.Session() as sess:
 ```
 
 Just to exemplify, Framework like TensorFlow offers us ultimately friendly and enclosed entries like : [autodiff](https://www.tensorflow.org/api_docs/python/tf/gradients),  [optimizer](https://www.tensorflow.org/api_docs/python/tf/train#classes) to perform optimizations.
+
+However, does it really mean our old-school calcus were out-moded and should be cast aside simply becuse Google or Facebook take care of everything for us?
+
+[![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/matdiff_entry.png)](https://www.youtube.com/watch?v=6dbrR-WymjI)
