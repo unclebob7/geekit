@@ -142,7 +142,7 @@ All above snippets output the same **MSE** :
 
 ![matdiff verify](https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/matdiff_verify.png)
 
-As a matter of hindsight, approximately 2 weeks have eplased befor eventually and fortunately figure out how by essence `backprop` works. It's not merely the rationale or theory that we derive from science per se. But the philosophy comes along. Sentiments, specifically agitation keep balking us from proceeding further both in science and secularity(daily life...). It's just that we keep brooding about the "repercussion" that it's likely to bring about for the present probability it's retaining. So the major away is still as follow:
+As a matter of hindsight, approximately 2 weeks have eplased befor eventually and fortunately figure out how by essence `backprop` works. It's not merely the rationale or theory that we derive from science per se. But the philosophy comes along. Sentiments, specifically agitation keep balking us from proceeding further both in science and secularity(daily life...). It's just that we keep brooding about the "repercussion" that it's likely to bring about for the present probability it's retaining. So the major takeaway is still as follows :
 
 > [*Reality dosen't exist until we measure it.*](https://www.sciencealert.com/reality-doesn-t-exist-until-we-measure-it-quantum-experiment-confirms)
 >
