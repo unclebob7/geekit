@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TensorFlow cheatsheet"
-date: 2018-10-05 16:37:00
+date: 2019-03-02 16:42:00
 image: 'https://raw.githubusercontent.com/unclebob7/tensorflow/master/graph/tf_icon.jpg'
 description: TensorFlow cheatsheet
 category: 'machine learning'
