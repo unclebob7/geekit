@@ -31,6 +31,15 @@ introduction: words to live by
 
 ![Atlas](https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/atlas.jpeg)
 
-都是些西人产物， 其实我们不不差， 至少也有些区块链， 全民人工智能培训班， 各路B2B, O2O啥的做的也算“甚嚣尘上”
+都是些西人产物， 其实我们也不差， 至少也有些区块链， 全民人工智能培训班， 各路B2B, O2O啥的做的也算“甚嚣尘上”
 
-试想， 波士顿动力， SpaceX这种玩法倘若放在国内， 也怕早就被“被强行转的飞快”的历史巨轮碾的飘尘飞絮了。。。
+试想， 波士顿动力， SpaceX这种玩法倘若放在国内， 没有月活， 更别谈收益， 也怕早就被“被强行转的飞快”的华夏历史巨轮碾的齑身粉骨...
+
+他们称自己造梦者， 我们却贬损他们为不着边际的， 汪洋恣肆的荒谬之人。像极了当年的托勒密， 为世界景仰供奉为天文世界的牛顿， 却在国内成了唯心主义的代名词。
+
+引Sir Newton 一言： Truth is ever to be found in simplicity, and not the multiplicity and confusion of things.
+
+倘若科学之路需要动力， 恐怕也只有简简单单的兴趣才够资格吧。
+
+文末， 引周志华教授一言共勉亦自省： **Research is for fun.**
+
