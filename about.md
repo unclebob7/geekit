@@ -16,4 +16,4 @@ statistical, machine translation task. To evaluate the robustness and fault-tole
 
 
 	
-<a href="/resume.pdf" target="_blank">附件1</a>
+<a href="/resume.pdf" target="_blank">resume</a>
