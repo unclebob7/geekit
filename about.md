@@ -5,7 +5,7 @@ description: resume
 permalink: /about/
 ---
 
-<img itemprop="image" class="img-rounded" src="https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/selfie.jpg" alt="Your Name">
+<img itemprop="image" class="rounded-circle" src="https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/selfie.jpg" alt="Your Name">
 
 ## Publication
 
