@@ -9,7 +9,7 @@ tags:
 introduction: Know more about me.
 ---
 
-I am presently a Junior student pursing my B.Eng in the faculty of telecommunication at CUG. My expertises of interest are Computational Linguistics of both natural language and programming language, Machine learning, as well as program synthesis.
+I am presently a Senior student pursing my B.Eng in the faculty of telecommunication at CUG. My expertises of interest are Computational Linguistics of both natural language and programming language, Machine learning, as well as program synthesis.
 
 ## Publication
 
