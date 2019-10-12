@@ -1,14 +1,13 @@
 ---
 layout: post
 title: 'About Me'
-image: 'https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/bob.jpg'
+image: 'https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/selfie.jpg'
 description: Know more about me
 category: 'me'
 tags:
 - me
 introduction: Know more about me.
 ---
-<img itemprop="image" class="img-rounded" src="https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/selfie.jpg" alt="Your Name">
 
 I am presently a Junior student pursing my B.Eng in the faculty of telecommunication at CUG. My expertises of interest are Computational Linguistics of both natural language and programming language, Machine learning, as well as program synthesis.
 
