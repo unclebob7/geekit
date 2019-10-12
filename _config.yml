@@ -2,7 +2,7 @@
 title: Geekit | Uncle Bob
 email: zhimingli@cug.edu.cn
 description: We are all in the gutter , but some of us are looking at the stars.
-baseurl: /unclebob7.codes # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: "https://unclebob7.codes/" # https://www.rossener.com
 google_analytics: "UA-XXXXXXXX-X"
 
