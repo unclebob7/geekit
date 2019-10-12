@@ -7,6 +7,8 @@ permalink: /about/
 
 <img itemprop="image" class="img-rounded" src="https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/selfie.jpg" alt="Your Name">
 
+I am presently a Senior student pursing my B.Eng in the faculty of telecommunication at CUG. My expertises of interest are Computational Linguistics of both natural language and programming language, Machine learning, as well as Program Synthesis.
+
 ## Publication
 
 <a href="https://arxiv.org/pdf/1908.06748.pdf" style="font-weight: bold">Adabot: Fault-Tolerant Java Decompiler</a>
@@ -18,3 +20,7 @@ Zhiming Li\*, Qing Wu\*, Kun Qian\*, The Thirty-Third AAAI Conference on Artific
 Check here for my detailed information:
 
 <a href="/resume.pdf" target="_blank">resume</a>
+
+## Contact 
+- TEL:+86 18971632117
+- email：unclebobhk@gmail.com
