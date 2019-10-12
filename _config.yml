@@ -1,9 +1,9 @@
 # Site Settings
 title: Geekit | Uncle Bob
-email: peter2008.ok@163.com
+email: zhimingli@cug.edu.cn
 description: We are all in the gutter , but some of us are looking at the stars.
-baseurl: /geekit # the subpath of your site, e.g. /blog
-url: "https://unclebob7.github.io/geekit/" # https://www.rossener.com
+baseurl: /unclebob7.codes # the subpath of your site, e.g. /blog
+url: "https://unclebob7.codes/" # https://www.rossener.com
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
@@ -33,7 +33,7 @@ links:
   - title: About
     url: /about/
   - title: Contact
-    url: "https://github.com/unclebob7/geekit/about/"
+    url: "https://unclebob7.codes/about/"
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
