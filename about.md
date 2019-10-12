@@ -9,6 +9,7 @@ permalink: /about/
 #em a:link,#em a:visited{font-family:Segoe UI Light;font-size:24pt;color:#1c4269;text-decoration:none;}
 #em a:hover{color:#0000FF;text-decoration:underline;}
 </style> 
+
 <div id="em" unselectable="on"><a href="https://arxiv.org/pdf/1908.06748.pdf" unselectable="on">Member Information</a>  </div>
 
 <img itemprop="image" class="img-rounded" src="https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/selfie.jpg" alt="Your Name">
