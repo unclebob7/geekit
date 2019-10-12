@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Who is Uncle Bob ?'
+title: 'About Me'
 image: 'https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/bob.jpg'
 description: Know more about me
 category: 'me'
@@ -8,29 +8,21 @@ tags:
 - me
 introduction: Know more about me.
 ---
+<img itemprop="image" class="img-rounded" src="https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/selfie.jpg" alt="Your Name">
 
-I am presently a Junior student pursing my B.Eng in the faculty of telecommunication at CUG. My expertises of interest are Android development, Machine learning, especially NLP.
+I am presently a Junior student pursing my B.Eng in the faculty of telecommunication at CUG. My expertises of interest are Computational Linguistics of both natural language and programming language, Machine learning, as well as program synthesis.
 
-> _**When time was young , getting asked with the "what's your dream ?" question , I got laughed at answering with "Change The World" , which I seriously mean it.**_
+## Publication
 
- 
+<a href="https://arxiv.org/pdf/1908.06748.pdf" style="font-weight: bold">Adabot: Fault-Tolerant Java Decompiler</a>
 
+Zhiming Li\*, Qing Wu\*, Kun Qian\*, The Thirty-Third AAAI Conference on Artificial Intelligence. submitted to **AAAI 2020**. 
 
-                                                  Uncle Bob
-                                           posted at CUG 20/09/2018
+## Resume
 
-## Words to live by
+Check here for my detailed information:
 
-### Rationality Genorosity Visionary
-> _**I have no speical talents. I am only passionately curious.**_
-> 
-> _**---Albert Einstein**_
-
-
-## expertises of interest
-- Android development
-- Machine learning
-- NLP
+<a href="/resume.pdf" target="_blank">resume</a>
 
 ## Contact 
 - TEL:+86 18971632117
