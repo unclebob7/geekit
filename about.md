@@ -5,7 +5,7 @@ description: resume
 permalink: /about/
 ---
 
-<img itemprop="image" class="img-rounded" src="https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/selfie.jpg" alt="Your Name">
+<img itemprop="image" class="img-rounded" src="https://raw.githubusercontent.com/unclebob7/geekit/gh-pages/assets/img/selfie.jpg" alt="selfie">
 
 I am presently a Senior student pursing my B.Eng in the faculty of telecommunication at CUG. My research interests include:
 - Artificial Intelligence
