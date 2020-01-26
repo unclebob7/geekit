@@ -46,13 +46,13 @@ $$
 - $$\eta$$ (scalar): learning rate (ML); length of the directional derivative (TE)
 - $$\overrightarrow{v}$$ (unit vector): the direction of `descent`  
 
-**\eta** is just a small scalar that can be self-defined (e.g. 10^-4). So the problem left is to define **\overrightarrow{v}** so that we can maximize the `descent` and reach `optima` as fast as possible. It is formulated as follows:
+$$\eta$$ is just a small scalar that can be self-defined (e.g. 10^-4). So the problem left is to define $$\overrightarrow{v}$$ so that we can maximize the `descent` and reach `optima` as fast as possible. It is formulated as follows:
 
 $$\overrightarrow{v} = arg min_{\overrightarrow{v}} [J(\theta') - J(\theta)] = arg min_{\overrightarrow{v}} \overrightarrow{v}\nabla_{\theta}J(\theta)$$  
 
 <center>Formula 3: Finding v</center>
 
-And it is apparent that in order to maximize the descent of each iteration (finding the smallest negative), **\overrightarrow{v}** got to be the negative direction of **\nabla_{\theta}J(\theta)** (the gradient). It is formulated as follows:
+And it is apparent that in order to maximize the descent of each iteration (finding the smallest negative), $$\overrightarrow{v}$$ got to be the negative direction of $$\nabla_{\theta}J(\theta)$$ (the gradient). It is formulated as follows:
 
 $$\overrightarrow{v} =  - \frac{\nabla_{\theta}J(\theta)}{||\nabla_{\theta}J(\theta)||}$$
 
