@@ -38,7 +38,7 @@ $$J(\theta'; \overrightarrow{v}) = J(\theta) + \eta\overrightarrow{v}\nabla_{\th
 $$\eta\overrightarrow{v} = (\theta' - \theta)$$
 <center>Formula 2: TE to GD alignment</center>
 
-- **\eta** (scalar): learning rate (ML); length of the directional derivative (TE)
+- $$\eta$$ (scalar): learning rate (ML); length of the directional derivative (TE)
 - **\overrightarrow{v}** (unit vector): the direction of `descent`  
 
 **\eta** is just a small scalar that can be self-defined (e.g. 10^-4). So the problem left is to define **\overrightarrow{v}** so that we can maximize the `descent` and reach `optima` as fast as possible. It is formulated as follows:
