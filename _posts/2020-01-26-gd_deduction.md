@@ -35,9 +35,11 @@ $$J(\theta') = J(\theta) + (\theta' - \theta)\nabla_{\theta}J(\theta)$$
 ### from TE to GD
 to align *Formula 1* with GD that we have previously learned in ML:
 
-$$J(\theta'; \overrightarrow{v}) = J(\theta) + \eta\overrightarrow{v}\nabla_{\theta}J(\theta)$$
-
-$$\eta\overrightarrow{v} = (\theta' - \theta)$$
+$$\begin{cases}
+J(\theta'; \overrightarrow{v}) = J(\theta) + \eta\overrightarrow{v}\nabla_{\theta}J(\theta)\\
+\eta\overrightarrow{v} = (\theta' - \theta)
+\end{cases}
+$$
 
 <center>Formula 2: TE to GD alignment</center>
 
